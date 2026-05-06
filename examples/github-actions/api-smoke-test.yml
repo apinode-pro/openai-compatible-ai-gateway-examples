@@ -1,0 +1,22 @@
+name: API NODE smoke test
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test chat completions
+        env:
+          APINODE_API_KEY: ${{ secrets.APINODE_API_KEY }}
+          APINODE_BASE_URL: https://apinode.pro
+          APINODE_MODEL: gpt-5.5
+        run: |
+          curl -fsS "$APINODE_BASE_URL/responses" \
+            -H "Authorization: Bearer $APINODE_API_KEY" \
+            -H "Content-Type: application/json" \
+            -d "{\"model\":\"$APINODE_MODEL\",\"input\":\"ping\"}" \
+            | jq -e '.output_text'

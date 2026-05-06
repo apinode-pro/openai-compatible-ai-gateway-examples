@@ -1,0 +1,11 @@
+{
+  "name": "apinode-node-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "openai": "^5.0.0"
+  }
+}

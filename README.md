@@ -92,6 +92,13 @@ wire_api = "responses"
 requires_openai_auth = true
 ```
 
+## Guides
+
+- [How to use one OpenAI-compatible base URL for GPT, Claude, Gemini, and coding agents](guides/one-openai-compatible-base-url.md)
+- [Configure Cursor with an OpenAI-compatible API gateway](guides/configure-cursor-with-apinode.md)
+- [Use Codex CLI with API NODE](guides/use-codex-cli-with-apinode.md)
+- [Building reliable LLM fallback with an OpenAI-compatible gateway](guides/reliable-llm-fallback.md)
+
 ## GitHub Actions Smoke Test
 
 Copy this workflow into `.github/workflows/api-smoke-test.yml`:
@@ -130,4 +137,3 @@ Useful additions:
 - Open WebUI and LibreChat setup recipes.
 
 Please do not commit API keys or account secrets.
-

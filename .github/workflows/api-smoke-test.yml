@@ -18,5 +18,4 @@ jobs:
             -H "Authorization: Bearer $APINODE_API_KEY" \
             -H "Content-Type: application/json" \
             -d "{\"model\":\"$APINODE_MODEL\",\"input\":\"ping\"}" \
-            | jq -e '.output_text'
-
+            | jq -e '(.output_text // .output[0].content[0].text // empty)'

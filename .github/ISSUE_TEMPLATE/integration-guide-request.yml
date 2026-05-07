@@ -1,0 +1,34 @@
+name: Request an integration guide
+description: Ask for a new API NODE setup guide for a tool, SDK, or framework.
+title: "Guide request: "
+labels: ["guide-request"]
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: Tool, SDK, or framework
+      placeholder: "Aider, OpenHands, LangGraph, Go SDK..."
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Official docs or repository
+      placeholder: "https://github.com/example/project"
+    validations:
+      required: false
+  - type: textarea
+    id: config
+    attributes:
+      label: Config shape
+      description: Paste a redacted config snippet if you already have one. Do not include API keys.
+      placeholder: "base_url: https://apinode.pro\nmodel: gpt-5.5"
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: What should the guide cover?
+      placeholder: "Local setup, GitHub Actions, streaming, fallback, troubleshooting..."
+    validations:
+      required: false

@@ -119,6 +119,14 @@ requires_openai_auth = true
 - [Use LibreChat with API NODE](guides/librechat-with-apinode.md)
 - [Use Flowise with API NODE](guides/flowise-with-apinode.md)
 
+## Troubleshooting
+
+- [Troubleshoot 401 invalid API key](guides/troubleshoot-401-invalid-api-key.md)
+- [Troubleshoot 404 base URL issues](guides/troubleshoot-404-base-url.md)
+- [Troubleshoot model not found](guides/troubleshoot-model-not-found.md)
+- [Troubleshoot Responses API vs Chat Completions](guides/troubleshoot-responses-api-vs-chat-completions.md)
+- [Troubleshoot streaming output](guides/troubleshoot-streaming-output.md)
+
 ## GitHub Actions Smoke Test
 
 Copy this workflow into `.github/workflows/api-smoke-test.yml`:

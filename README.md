@@ -98,6 +98,11 @@ requires_openai_auth = true
 - [Configure Cursor with an OpenAI-compatible API gateway](guides/configure-cursor-with-apinode.md)
 - [Use Codex CLI with API NODE](guides/use-codex-cli-with-apinode.md)
 - [Building reliable LLM fallback with an OpenAI-compatible gateway](guides/reliable-llm-fallback.md)
+- [Use LiteLLM with API NODE](guides/litellm-with-apinode.md)
+- [Use Vercel AI SDK with API NODE](guides/vercel-ai-sdk-with-apinode.md)
+- [Use LangChain JS with API NODE](guides/langchain-js-with-apinode.md)
+- [Call API NODE with fetch](guides/fetch-responses-api-with-apinode.md)
+- [Use ruby-openai with API NODE](guides/ruby-openai-with-apinode.md)
 
 ## GitHub Actions Smoke Test
 

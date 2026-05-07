@@ -127,6 +127,11 @@ requires_openai_auth = true
 - [Troubleshoot Responses API vs Chat Completions](guides/troubleshoot-responses-api-vs-chat-completions.md)
 - [Troubleshoot streaming output](guides/troubleshoot-streaming-output.md)
 
+## Requests and Working Configs
+
+- Open an issue to request a new integration guide, report a compatibility issue, or share a working redacted config.
+- Use Discussions for questions, guide ideas, and community config notes. See [DISCUSSIONS.md](DISCUSSIONS.md).
+
 ## GitHub Actions Smoke Test
 
 Copy this workflow into `.github/workflows/api-smoke-test.yml`:

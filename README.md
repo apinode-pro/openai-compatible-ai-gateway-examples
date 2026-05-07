@@ -103,6 +103,11 @@ requires_openai_auth = true
 - [Use LangChain JS with API NODE](guides/langchain-js-with-apinode.md)
 - [Call API NODE with fetch](guides/fetch-responses-api-with-apinode.md)
 - [Use ruby-openai with API NODE](guides/ruby-openai-with-apinode.md)
+- [Use Continue with API NODE](guides/continue-with-apinode.md)
+- [Use Cline with API NODE](guides/cline-with-apinode.md)
+- [Use Roo Code with API NODE](guides/roo-code-with-apinode.md)
+- [Use Open WebUI with API NODE](guides/open-webui-with-apinode.md)
+- [Use LibreChat with API NODE](guides/librechat-with-apinode.md)
 
 ## GitHub Actions Smoke Test
 

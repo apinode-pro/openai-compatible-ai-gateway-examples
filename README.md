@@ -140,10 +140,9 @@ developer-tools
 
 Useful additions:
 
-- LangChain example.
-- Vercel AI SDK example.
-- LiteLLM example.
-- Continue, Cline, and Roo Code config recipes.
-- Open WebUI and LibreChat setup recipes.
+- More SDK recipes for popular OpenAI-compatible clients.
+- More coding-agent and chat-app configuration examples.
+- CI smoke tests for additional languages and package managers.
+- Short troubleshooting notes for common base URL, model, and streaming issues.
 
 Please do not commit API keys or account secrets.

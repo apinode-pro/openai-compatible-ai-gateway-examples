@@ -1,6 +1,6 @@
-# OpenAI-Compatible AI Gateway Examples
+# OpenAI-Compatible AI Gateway Examples for Cursor, Codex, Aider, SDKs, and CI
 
-Copy-paste examples for using an OpenAI-compatible AI API gateway with Claude, GPT, Gemini, Cursor, Codex CLI, Claude Code, GitHub Actions, Node.js, Python, and curl.
+Copy-paste examples for using an OpenAI-compatible AI API gateway with Claude, GPT, Gemini, Cursor, Codex CLI, Claude Code, Aider, OpenHands, Flowise, LangChain, LlamaIndex, GitHub Actions, Node.js, Python, Go, Rust, Deno, and curl.
 
 These examples use API NODE by default:
 
@@ -97,17 +97,27 @@ requires_openai_auth = true
 - [How to use one OpenAI-compatible base URL for GPT, Claude, Gemini, and coding agents](guides/one-openai-compatible-base-url.md)
 - [Configure Cursor with an OpenAI-compatible API gateway](guides/configure-cursor-with-apinode.md)
 - [Use Codex CLI with API NODE](guides/use-codex-cli-with-apinode.md)
+- [Use Aider with API NODE](guides/aider-with-apinode.md)
+- [Use OpenHands with API NODE](guides/openhands-with-apinode.md)
 - [Building reliable LLM fallback with an OpenAI-compatible gateway](guides/reliable-llm-fallback.md)
 - [Use LiteLLM with API NODE](guides/litellm-with-apinode.md)
 - [Use Vercel AI SDK with API NODE](guides/vercel-ai-sdk-with-apinode.md)
 - [Use LangChain JS with API NODE](guides/langchain-js-with-apinode.md)
+- [Use LangGraph Python with API NODE](guides/langgraph-python-with-apinode.md)
+- [Use LlamaIndex Python with API NODE](guides/llamaindex-python-with-apinode.md)
 - [Call API NODE with fetch](guides/fetch-responses-api-with-apinode.md)
+- [Use the Python OpenAI SDK Responses API with API NODE](guides/python-openai-sdk-responses-with-apinode.md)
+- [Call the Responses API from Go with API NODE](guides/go-responses-api-with-apinode.md)
+- [Call the Responses API from Rust with API NODE](guides/rust-responses-api-with-apinode.md)
+- [Call the Responses API from Deno with API NODE](guides/deno-fetch-responses-api-with-apinode.md)
+- [Test API NODE in a GitHub Actions matrix](guides/github-actions-matrix-with-apinode.md)
 - [Use ruby-openai with API NODE](guides/ruby-openai-with-apinode.md)
 - [Use Continue with API NODE](guides/continue-with-apinode.md)
 - [Use Cline with API NODE](guides/cline-with-apinode.md)
 - [Use Roo Code with API NODE](guides/roo-code-with-apinode.md)
 - [Use Open WebUI with API NODE](guides/open-webui-with-apinode.md)
 - [Use LibreChat with API NODE](guides/librechat-with-apinode.md)
+- [Use Flowise with API NODE](guides/flowise-with-apinode.md)
 
 ## GitHub Actions Smoke Test
 
@@ -126,14 +136,22 @@ Suggested GitHub topics:
 ```text
 ai-gateway
 openai-compatible
+openai-api
+responses-api
 llm-api
+llm-gateway
 api-gateway
+ai-api
 claude-code
 codex-cli
 cursor
+aider
 openai
 model-router
 developer-tools
+github-actions
+langchain
+llamaindex
 ```
 
 ## Contributing

@@ -124,6 +124,7 @@ requires_openai_auth = true
 - [Azure AI Foundry OpenAI-compatible v1 endpoint notes](guides/azure-ai-foundry-openai-compatible-v1.md)
 - [App maintainer checklist for custom OpenAI-compatible providers](guides/app-maintainer-provider-protocol-checklist.md)
 - [OpenAI-compatible embeddings endpoint checklist](guides/openai-compatible-embeddings-endpoint.md)
+- [Separate chat and embeddings endpoints](guides/separate-chat-and-embeddings-endpoints.md)
 
 ## Troubleshooting
 
@@ -133,6 +134,7 @@ requires_openai_auth = true
 - [Troubleshoot custom OpenAI endpoint configuration](guides/troubleshoot-custom-openai-endpoint.md)
 - [Troubleshoot an endpoint routed to the wrong provider](guides/troubleshoot-endpoint-routed-to-wrong-provider.md)
 - [Troubleshoot Azure OpenAI-compatible v1 api-version errors](guides/troubleshoot-azure-openai-v1-api-version.md)
+- [Troubleshoot embeddings encoding_format null errors](guides/troubleshoot-embeddings-encoding-format-null.md)
 - [Troubleshoot Responses API vs Chat Completions](guides/troubleshoot-responses-api-vs-chat-completions.md)
 - [Troubleshoot streaming output](guides/troubleshoot-streaming-output.md)
 

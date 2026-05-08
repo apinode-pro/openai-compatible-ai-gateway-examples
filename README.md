@@ -123,6 +123,7 @@ requires_openai_auth = true
 - [Base URL path joining rules](guides/base-url-path-joining-rules.md)
 - [Azure AI Foundry OpenAI-compatible v1 endpoint notes](guides/azure-ai-foundry-openai-compatible-v1.md)
 - [App maintainer checklist for custom OpenAI-compatible providers](guides/app-maintainer-provider-protocol-checklist.md)
+- [OpenAI-compatible embeddings endpoint checklist](guides/openai-compatible-embeddings-endpoint.md)
 
 ## Troubleshooting
 
@@ -131,6 +132,7 @@ requires_openai_auth = true
 - [Troubleshoot model not found](guides/troubleshoot-model-not-found.md)
 - [Troubleshoot custom OpenAI endpoint configuration](guides/troubleshoot-custom-openai-endpoint.md)
 - [Troubleshoot an endpoint routed to the wrong provider](guides/troubleshoot-endpoint-routed-to-wrong-provider.md)
+- [Troubleshoot Azure OpenAI-compatible v1 api-version errors](guides/troubleshoot-azure-openai-v1-api-version.md)
 - [Troubleshoot Responses API vs Chat Completions](guides/troubleshoot-responses-api-vs-chat-completions.md)
 - [Troubleshoot streaming output](guides/troubleshoot-streaming-output.md)
 

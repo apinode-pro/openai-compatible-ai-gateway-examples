@@ -120,6 +120,9 @@ requires_openai_auth = true
 - [Use Flowise with API NODE](guides/flowise-with-apinode.md)
 - [OpenAI-compatible environment variable patterns](guides/openai-compatible-env-vars.md)
 - [Endpoint readiness checklist](guides/endpoint-readiness-checklist.md)
+- [Base URL path joining rules](guides/base-url-path-joining-rules.md)
+- [Azure AI Foundry OpenAI-compatible v1 endpoint notes](guides/azure-ai-foundry-openai-compatible-v1.md)
+- [App maintainer checklist for custom OpenAI-compatible providers](guides/app-maintainer-provider-protocol-checklist.md)
 
 ## Troubleshooting
 

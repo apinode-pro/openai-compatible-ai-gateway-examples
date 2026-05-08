@@ -118,6 +118,8 @@ requires_openai_auth = true
 - [Use Open WebUI with API NODE](guides/open-webui-with-apinode.md)
 - [Use LibreChat with API NODE](guides/librechat-with-apinode.md)
 - [Use Flowise with API NODE](guides/flowise-with-apinode.md)
+- [OpenAI-compatible environment variable patterns](guides/openai-compatible-env-vars.md)
+- [Endpoint readiness checklist](guides/endpoint-readiness-checklist.md)
 
 ## Troubleshooting
 
@@ -125,6 +127,7 @@ requires_openai_auth = true
 - [Troubleshoot 404 base URL issues](guides/troubleshoot-404-base-url.md)
 - [Troubleshoot model not found](guides/troubleshoot-model-not-found.md)
 - [Troubleshoot custom OpenAI endpoint configuration](guides/troubleshoot-custom-openai-endpoint.md)
+- [Troubleshoot an endpoint routed to the wrong provider](guides/troubleshoot-endpoint-routed-to-wrong-provider.md)
 - [Troubleshoot Responses API vs Chat Completions](guides/troubleshoot-responses-api-vs-chat-completions.md)
 - [Troubleshoot streaming output](guides/troubleshoot-streaming-output.md)
 

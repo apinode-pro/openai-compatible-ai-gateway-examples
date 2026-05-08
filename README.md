@@ -124,6 +124,7 @@ requires_openai_auth = true
 - [Troubleshoot 401 invalid API key](guides/troubleshoot-401-invalid-api-key.md)
 - [Troubleshoot 404 base URL issues](guides/troubleshoot-404-base-url.md)
 - [Troubleshoot model not found](guides/troubleshoot-model-not-found.md)
+- [Troubleshoot custom OpenAI endpoint configuration](guides/troubleshoot-custom-openai-endpoint.md)
 - [Troubleshoot Responses API vs Chat Completions](guides/troubleshoot-responses-api-vs-chat-completions.md)
 - [Troubleshoot streaming output](guides/troubleshoot-streaming-output.md)
 

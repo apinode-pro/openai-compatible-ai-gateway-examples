@@ -122,9 +122,13 @@ requires_openai_auth = true
 - [Endpoint readiness checklist](guides/endpoint-readiness-checklist.md)
 - [Base URL path joining rules](guides/base-url-path-joining-rules.md)
 - [Azure AI Foundry OpenAI-compatible v1 endpoint notes](guides/azure-ai-foundry-openai-compatible-v1.md)
+- [Azure AI Foundry OpenAI-compatible maintainer case study](guides/azure-openai-compatible-maintainer-case-study.md)
 - [App maintainer checklist for custom OpenAI-compatible providers](guides/app-maintainer-provider-protocol-checklist.md)
 - [OpenAI-compatible embeddings endpoint checklist](guides/openai-compatible-embeddings-endpoint.md)
+- [OpenAI-compatible embeddings troubleshooting index](guides/embeddings-troubleshooting-index.md)
 - [Separate chat and embeddings endpoints](guides/separate-chat-and-embeddings-endpoints.md)
+- [Custom OpenAI endpoint issue triage checklist](guides/custom-endpoint-issue-triage-checklist.md)
+- [Browser CORS and custom OpenAI-compatible endpoints](guides/browser-cors-custom-openai-endpoints.md)
 
 ## Troubleshooting
 

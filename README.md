@@ -129,6 +129,7 @@ requires_openai_auth = true
 - [Separate chat and embeddings endpoints](guides/separate-chat-and-embeddings-endpoints.md)
 - [Custom OpenAI endpoint issue triage checklist](guides/custom-endpoint-issue-triage-checklist.md)
 - [Browser CORS and custom OpenAI-compatible endpoints](guides/browser-cors-custom-openai-endpoints.md)
+- [Provider-specific request parameters](guides/provider-specific-request-parameters.md)
 
 ## Troubleshooting
 
@@ -136,8 +137,10 @@ requires_openai_auth = true
 - [Troubleshoot 404 base URL issues](guides/troubleshoot-404-base-url.md)
 - [Troubleshoot model not found](guides/troubleshoot-model-not-found.md)
 - [Troubleshoot custom OpenAI endpoint configuration](guides/troubleshoot-custom-openai-endpoint.md)
+- [Troubleshoot runtime config not applied](guides/troubleshoot-runtime-config-not-applied.md)
 - [Troubleshoot an endpoint routed to the wrong provider](guides/troubleshoot-endpoint-routed-to-wrong-provider.md)
 - [Troubleshoot Azure OpenAI-compatible v1 api-version errors](guides/troubleshoot-azure-openai-v1-api-version.md)
+- [Troubleshoot max_tokens vs max_completion_tokens](guides/troubleshoot-max-tokens-vs-max-completion-tokens.md)
 - [Troubleshoot embeddings encoding_format null errors](guides/troubleshoot-embeddings-encoding-format-null.md)
 - [Troubleshoot Responses API vs Chat Completions](guides/troubleshoot-responses-api-vs-chat-completions.md)
 - [Troubleshoot streaming output](guides/troubleshoot-streaming-output.md)

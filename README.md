@@ -130,6 +130,9 @@ requires_openai_auth = true
 - [Custom OpenAI endpoint issue triage checklist](guides/custom-endpoint-issue-triage-checklist.md)
 - [Browser CORS and custom OpenAI-compatible endpoints](guides/browser-cors-custom-openai-endpoints.md)
 - [Provider-specific request parameters](guides/provider-specific-request-parameters.md)
+- [Token limit parameter compatibility](guides/token-limit-parameter-compatibility.md)
+- [Reasoning model output budget notes](guides/reasoning-model-output-budget.md)
+- [OpenAI-compatible request regression tests](guides/openai-compatible-request-regression-tests.md)
 
 ## Troubleshooting
 

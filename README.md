@@ -133,6 +133,8 @@ requires_openai_auth = true
 - [Token limit parameter compatibility](guides/token-limit-parameter-compatibility.md)
 - [Reasoning model output budget notes](guides/reasoning-model-output-budget.md)
 - [OpenAI-compatible request regression tests](guides/openai-compatible-request-regression-tests.md)
+- [Maintainer-ready docs PR for an OpenAI-compatible provider](guides/maintainer-ready-openai-compatible-docs-pr.md)
+- [Direct triage comments for custom endpoint issues](guides/direct-triage-comments-for-custom-endpoints.md)
 
 ## Troubleshooting
 

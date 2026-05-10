@@ -137,6 +137,8 @@ requires_openai_auth = true
 - [Direct triage comments for custom endpoint issues](guides/direct-triage-comments-for-custom-endpoints.md)
 - [OpenAI SDK custom base URL examples](guides/openai-sdk-custom-base-url-examples.md)
 - [Base URL regression test fixtures](guides/base-url-regression-test-fixtures.md)
+- [Agent base URL configuration examples](guides/agent-base-url-configuration-examples.md)
+- [Codex provider block reference](guides/codex-provider-block-reference.md)
 
 ## Troubleshooting
 

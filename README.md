@@ -35,6 +35,9 @@ examples/github-actions
 If you are choosing between SDKs, coding agents, and troubleshooting docs, start
 with [template and agent entrypoints](guides/template-and-agent-entrypoints.md).
 
+If you cloned this repository and want the shortest path, start with
+[after cloning this repo](guides/after-cloning-this-repo.md).
+
 ## Why This Repo Exists
 
 Developers often want to test a new LLM provider or gateway without rewriting an app. Most modern AI tools and SDKs can use a custom OpenAI-compatible endpoint.
@@ -104,6 +107,7 @@ requires_openai_auth = true
 - [Use OpenHands with API NODE](guides/openhands-with-apinode.md)
 - [Building reliable LLM fallback with an OpenAI-compatible gateway](guides/reliable-llm-fallback.md)
 - [Use LiteLLM with API NODE](guides/litellm-with-apinode.md)
+- [LiteLLM OpenAI-compatible base URL quickstart](guides/litellm-openai-compatible-base-url-quickstart.md)
 - [Use Vercel AI SDK with API NODE](guides/vercel-ai-sdk-with-apinode.md)
 - [Use LangChain JS with API NODE](guides/langchain-js-with-apinode.md)
 - [Use LangGraph Python with API NODE](guides/langgraph-python-with-apinode.md)
@@ -144,6 +148,7 @@ requires_openai_auth = true
 - [Codex provider block reference](guides/codex-provider-block-reference.md)
 - [Choose the right OpenAI-compatible base URL](guides/choose-the-right-openai-compatible-base-url.md)
 - [Template and agent entrypoints](guides/template-and-agent-entrypoints.md)
+- [After cloning this repo](guides/after-cloning-this-repo.md)
 
 ## Troubleshooting
 

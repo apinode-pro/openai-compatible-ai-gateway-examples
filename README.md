@@ -135,6 +135,8 @@ requires_openai_auth = true
 - [OpenAI-compatible request regression tests](guides/openai-compatible-request-regression-tests.md)
 - [Maintainer-ready docs PR for an OpenAI-compatible provider](guides/maintainer-ready-openai-compatible-docs-pr.md)
 - [Direct triage comments for custom endpoint issues](guides/direct-triage-comments-for-custom-endpoints.md)
+- [OpenAI SDK custom base URL examples](guides/openai-sdk-custom-base-url-examples.md)
+- [Base URL regression test fixtures](guides/base-url-regression-test-fixtures.md)
 
 ## Troubleshooting
 

@@ -32,6 +32,9 @@ examples/claude-code
 examples/github-actions
 ```
 
+If you are choosing between SDKs, coding agents, and troubleshooting docs, start
+with [template and agent entrypoints](guides/template-and-agent-entrypoints.md).
+
 ## Why This Repo Exists
 
 Developers often want to test a new LLM provider or gateway without rewriting an app. Most modern AI tools and SDKs can use a custom OpenAI-compatible endpoint.
@@ -139,6 +142,8 @@ requires_openai_auth = true
 - [Base URL regression test fixtures](guides/base-url-regression-test-fixtures.md)
 - [Agent base URL configuration examples](guides/agent-base-url-configuration-examples.md)
 - [Codex provider block reference](guides/codex-provider-block-reference.md)
+- [Choose the right OpenAI-compatible base URL](guides/choose-the-right-openai-compatible-base-url.md)
+- [Template and agent entrypoints](guides/template-and-agent-entrypoints.md)
 
 ## Troubleshooting
 

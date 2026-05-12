@@ -1,14 +1,23 @@
-# OpenAI-Compatible AI Gateway Examples for Cursor, Codex, Aider, SDKs, and CI
+# OpenAI-Compatible AI Gateway Examples for Cursor, Claude Code, Codex, SDKs, and CI
 
-Copy-paste examples for using an OpenAI-compatible AI API gateway with Claude, GPT, Gemini, Cursor, Codex CLI, Claude Code, Aider, OpenHands, Flowise, LangChain, LlamaIndex, GitHub Actions, Node.js, Python, Go, Rust, Deno, and curl.
+Copy-paste examples for using one OpenAI-compatible `base_url` across Cursor, Claude Code, Codex CLI, Aider, OpenHands, Flowise, LangChain, LlamaIndex, GitHub Actions, Node.js, Python, Go, Rust, Deno, and curl.
 
 These examples use API NODE by default:
 
 ```text
-Base URL: https://apinode.pro
+Base URL: https://apinode.pro/v1
 Model:    gpt-5.5
-API:      OpenAI Responses API
+API:      OpenAI-compatible Chat Completions / Responses API
 ```
+
+Use this repo when you want to:
+
+- keep your app independent from one upstream provider;
+- configure coding tools with a custom OpenAI-compatible endpoint;
+- centralize API keys, quota, usage logs, and model/provider switching;
+- reproduce API smoke tests in CI before changing your production app.
+
+Need trial credits? Open a [Request trial credits issue](https://github.com/apinode-pro/openai-compatible-ai-gateway-examples/issues/new?template=request-trial-credits.yml) and include your use case.
 
 [Try API NODE](https://apinode.pro)
 
@@ -16,7 +25,7 @@ API:      OpenAI Responses API
 
 ```bash
 export APINODE_API_KEY="your_api_key"
-export APINODE_BASE_URL="https://apinode.pro"
+export APINODE_BASE_URL="https://apinode.pro/v1"
 export APINODE_MODEL="gpt-5.5"
 ```
 
@@ -51,12 +60,15 @@ This repo keeps those setup paths small, explicit, and easy to verify.
 ```bash
 cd examples/curl
 export APINODE_API_KEY="your_api_key"
-export APINODE_BASE_URL="https://apinode.pro"
+export APINODE_BASE_URL="https://apinode.pro/v1"
 export APINODE_MODEL="gpt-5.5"
-curl "$APINODE_BASE_URL/responses" \
+curl "$APINODE_BASE_URL/chat/completions" \
   -H "Authorization: Bearer $APINODE_API_KEY" \
   -H "Content-Type: application/json" \
-  -d "{\"model\":\"$APINODE_MODEL\",\"input\":\"Say hello from API NODE\"}"
+  -d '{
+    "model": "gpt-5.5",
+    "messages": [{"role": "user", "content": "Say hello from API NODE"}]
+  }'
 ```
 
 ### Node.js
@@ -65,7 +77,7 @@ curl "$APINODE_BASE_URL/responses" \
 cd examples/node
 npm install
 export APINODE_API_KEY="your_api_key"
-export APINODE_BASE_URL="https://apinode.pro"
+export APINODE_BASE_URL="https://apinode.pro/v1"
 export APINODE_MODEL="gpt-5.5"
 npm start
 ```
@@ -76,7 +88,7 @@ npm start
 cd examples/python
 python3 -m pip install -r requirements.txt
 export APINODE_API_KEY="your_api_key"
-export APINODE_BASE_URL="https://apinode.pro"
+export APINODE_BASE_URL="https://apinode.pro/v1"
 export APINODE_MODEL="gpt-5.5"
 python3 main.py
 ```
@@ -93,7 +105,7 @@ The Codex CLI example uses:
 
 ```toml
 [model_providers.OpenAI]
-base_url = "https://apinode.pro"
+base_url = "https://apinode.pro/v1"
 wire_api = "responses"
 requires_openai_auth = true
 ```
@@ -168,8 +180,9 @@ requires_openai_auth = true
 - [Troubleshoot Responses API vs Chat Completions](guides/troubleshoot-responses-api-vs-chat-completions.md)
 - [Troubleshoot streaming output](guides/troubleshoot-streaming-output.md)
 
-## Requests and Working Configs
+## Requests, trial credits, and working configs
 
+- Need trial credits? Open a [Request trial credits issue](https://github.com/apinode-pro/openai-compatible-ai-gateway-examples/issues/new?template=request-trial-credits.yml) with your tool, current problem, expected usage, and first test.
 - Open an issue to request a new integration guide, report a compatibility issue, or share a working redacted config.
 - Use Discussions for questions, guide ideas, and community config notes. See [DISCUSSIONS.md](DISCUSSIONS.md).
 

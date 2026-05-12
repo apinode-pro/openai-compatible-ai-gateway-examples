@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: API NODE
+  - name: API NODE dashboard
     url: https://apinode.pro
     about: Visit API NODE for account and service information.
+  - name: Request trial credits
+    url: https://github.com/apinode-pro/openai-compatible-ai-gateway-examples/issues/new?template=request-trial-credits.yml
+    about: Tell us your Cursor, Claude Code, Codex, SDK, or AI app use case.

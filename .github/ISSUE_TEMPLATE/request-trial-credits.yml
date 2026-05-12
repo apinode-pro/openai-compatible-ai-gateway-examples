@@ -1,0 +1,76 @@
+name: Request trial credits
+description: Tell us what you want to test with API NODE trial credits.
+title: "Trial credits request: <tool or use case>"
+labels: ["trial-credits", "feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying API NODE. This issue template helps us give credits to real developer use cases instead of anonymous coupon drops.
+
+        Do not paste API keys, tokens, cookies, or private account details here.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact preference
+      description: GitHub username is enough. You can also add X, email, Discord, or another public contact if you prefer.
+      placeholder: "@your-github or preferred contact"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: use-case
+    attributes:
+      label: What are you testing?
+      multiple: true
+      options:
+        - Cursor
+        - Claude Code
+        - Codex CLI
+        - Aider / OpenHands / other coding agent
+        - Self-built AI app backend
+        - LangChain / LlamaIndex / Vercel AI SDK
+        - GitHub Actions smoke tests
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-problem
+    attributes:
+      label: Current problem or goal
+      description: What are you trying to solve? For example 429s, timeouts, provider switching, quota, usage logs, billing separation, or setup.
+      placeholder: "I want one OpenAI-compatible base_url for Cursor and my app backend because..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: expected-usage
+    attributes:
+      label: Expected monthly usage range
+      options:
+        - "Just testing / under $10"
+        - "$10 - $50"
+        - "$50 - $200"
+        - "$200+"
+        - "Not sure yet"
+    validations:
+      required: true
+
+  - type: textarea
+    id: first-test
+    attributes:
+      label: What will you test first?
+      description: Name the first tool, SDK, workflow, or model path you will try.
+      placeholder: "Cursor custom OpenAI endpoint, Python OpenAI SDK smoke test, Codex CLI provider block, etc."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I did not include API keys, tokens, cookies, passwords, or private account details in this issue.
+          required: true

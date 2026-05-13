@@ -231,3 +231,8 @@ Useful additions:
 - Short troubleshooting notes for common base URL, model, and streaming issues.
 
 Please do not commit API keys or account secrets.
+
+
+## Notes
+
+- [Daily note: one OpenAI-compatible endpoint for coding agents](docs/daily-growth-note-2026-05-13.md)

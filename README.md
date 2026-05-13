@@ -237,4 +237,5 @@ Please do not commit API keys or account secrets.
 
 ## Notes
 
+- [One `base_url` for Cursor, Claude Code, Codex, and agent scripts](docs/one-base-url-coding-agents-2026-05-13.md)
 - [Daily note: one OpenAI-compatible endpoint for coding agents](docs/daily-growth-note-2026-05-13.md)

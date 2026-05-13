@@ -122,6 +122,7 @@ requires_openai_auth = true
 - [LiteLLM OpenAI-compatible base URL quickstart](guides/litellm-openai-compatible-base-url-quickstart.md)
 - [LiteLLM custom headers for OpenAI-compatible endpoints](guides/litellm-custom-headers-for-openai-compatible-endpoints.md)
 - [Use Vercel AI SDK with API NODE](guides/vercel-ai-sdk-with-apinode.md)
+- [Next.js route handler with API NODE](guides/nextjs-route-handler-with-apinode.md)
 - [Use LangChain JS with API NODE](guides/langchain-js-with-apinode.md)
 - [Use LangGraph Python with API NODE](guides/langgraph-python-with-apinode.md)
 - [Use LlamaIndex Python with API NODE](guides/llamaindex-python-with-apinode.md)

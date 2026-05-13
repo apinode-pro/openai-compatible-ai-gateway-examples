@@ -1,24 +1,20 @@
-# Daily note: one OpenAI-compatible endpoint for coding agents
+# Daily growth note — 2026-05-13
 
-When a team uses Cursor, Claude Code, Codex CLI, SDK scripts, and internal agents at the same time, provider-specific configuration tends to spread everywhere:
+Small content asset added for developers who want to keep browser/app keys private while still using one OpenAI-compatible API NODE endpoint behind their own application server.
 
-- different `base_url` values per tool
-- different API keys per developer or script
-- model names that work in one provider but fail in another
-- unclear 429/timeout source when something breaks
+## Added
 
-A practical pattern is to keep every client pointed at one OpenAI-compatible endpoint, then move provider/model routing behind a gateway layer.
+- Guide: [Next.js route handler with API NODE](../guides/nextjs-route-handler-with-apinode.md)
+- README entry under Guides.
 
-```bash
-export OPENAI_BASE_URL="https://api.apinode.pro/v1"
-export OPENAI_API_KEY="your_api_key"
-```
+## Audience
 
-Benefits:
+- Next.js app builders testing custom OpenAI-compatible endpoints.
+- Developers moving from direct browser calls to server-side key handling.
+- Teams standardizing Cursor, Claude Code, Codex, CI, and app traffic around one `base_url`.
 
-- one stable `base_url` across Cursor, Claude Code, Codex CLI, and app code
-- centralized usage logs and quota tracking
-- easier provider switching and fallback
-- clearer debugging for upstream 429s, timeouts, and model-name mismatches
+## Outreach-safe angle
 
-This repo collects small examples for that workflow. If you want trial credits for a real Cursor / Claude Code / Codex / app setup, open a Request trial credits issue and include your use case.
+No-link technical framing for forums:
+
+> If your frontend needs AI calls, do not put provider/gateway keys in browser code. Keep the browser talking to your own `/api/chat` route, and have that route call one OpenAI-compatible `base_url`. That keeps keys server-side and makes model, latency, 429, and timeout logs easier to compare.

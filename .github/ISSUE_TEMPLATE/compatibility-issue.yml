@@ -7,7 +7,7 @@ body:
     id: tool
     attributes:
       label: Tool, SDK, or framework
-      placeholder: "Cursor, Codex CLI, LangChain, Open WebUI..."
+      placeholder: "Cursor, Claude Code, Codex CLI, LangChain, Open WebUI..."
     validations:
       required: true
   - type: input
@@ -21,7 +21,35 @@ body:
     id: base_url
     attributes:
       label: Base URL
-      placeholder: "https://apinode.pro"
+      placeholder: "https://apinode.pro/v1"
+    validations:
+      required: false
+  - type: dropdown
+    id: api_mode
+    attributes:
+      label: API mode
+      description: This helps separate Chat Completions problems from Responses API problems.
+      options:
+        - Chat Completions (/v1/chat/completions)
+        - Responses API (/v1/responses)
+        - Embeddings (/v1/embeddings)
+        - Not sure
+    validations:
+      required: false
+  - type: dropdown
+    id: failure_type
+    attributes:
+      label: What failed?
+      description: Pick the closest symptom so we can route the issue faster.
+      options:
+        - 401 / invalid API key
+        - 404 / base_url or path issue
+        - 429 / quota or rate limit
+        - timeout / latency
+        - model not found
+        - streaming output
+        - config not applied by the tool
+        - other
     validations:
       required: false
   - type: textarea
@@ -38,5 +66,17 @@ body:
       label: Redacted config
       description: Remove API keys, tokens, account IDs, and private URLs.
       render: text
+    validations:
+      required: false
+  - type: textarea
+    id: troubleshooting_done
+    attributes:
+      label: Checks already tried
+      description: Optional, but useful when debugging 429s, timeouts, or path mismatches.
+      placeholder: |
+        - Confirmed base_url ends with /v1
+        - Checked whether the tool uses Chat Completions or Responses API
+        - Compared one direct provider request with one API NODE request
+        - Captured request id / timestamp / upstream status if available
     validations:
       required: false
